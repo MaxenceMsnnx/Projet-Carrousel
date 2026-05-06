@@ -3,164 +3,353 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projet Carrousel</title>
+  <title>Projet Carrousel — HEI4</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <header class="header">
     <nav class="nav">
-      <span class="nav-logo">Carrousel</span>
+      <div class="nav-brand">
+        <span class="nav-logo">Projet Carrousel</span>
+        <span class="nav-sub">HEI4 — Conception mécanique</span>
+      </div>
       <ul class="nav-links">
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#features">Fonctionnalités</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#mecanismes">Mécanismes</a></li>
+        <li><a href="#equipe">Équipe</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="intro">
     <div class="hero-content">
-      <p class="hero-label">Découvrez le projet</p>
-      <h1 class="hero-title">Projet<br /><em>Carrousel</em></h1>
+      <p class="hero-label">Veille technologique · Contrôle Continu n°1</p>
+      <h1 class="hero-title">Le Projet<br /><em>Carrousel</em></h1>
       <p class="hero-description">
-        Une solution innovante pensée pour simplifier, automatiser et transformer votre façon de travailler. Efficace, élégant, fiable.
+        Concevoir et réaliser un carrousel mettant en valeur huit mécanismes d'intérêt particulier — par leurs mouvements, leur histoire, ou leur importance fondamentale pour la mécanique.
       </p>
-      <div class="hero-actions">
-        <a href="#features" class="btn btn-primary">Découvrir</a>
-        <a href="#contact" class="btn btn-outline">Nous contacter</a>
-      </div>
+      <a href="#mecanismes" class="btn btn-primary">Découvrir les mécanismes</a>
     </div>
     <div class="hero-visual">
-      <div class="visual-card card-1">
-        <span class="card-icon">◈</span>
-        <span>Performance</span>
-      </div>
-      <div class="visual-card card-2">
-        <span class="card-icon">◎</span>
-        <span>Simplicité</span>
-      </div>
-      <div class="visual-card card-3">
-        <span class="card-icon">◇</span>
-        <span>Innovation</span>
+      <div class="gear-ring">
+        <div class="gear-center">
+          <span class="gear-icon">⚙</span>
+          <span>8 mécanismes</span>
+        </div>
+        <div class="gear-item" style="--i:0"><span>Lambda<br/>Tchebychev</span></div>
+        <div class="gear-item" style="--i:1"><span>Piston</span></div>
+        <div class="gear-item" style="--i:2"><span>Genève</span></div>
+        <div class="gear-item" style="--i:3"><span>Vis<br/>sans fin</span></div>
+        <div class="gear-item" style="--i:4"><span>Came<br/>suiveur</span></div>
+        <div class="gear-item" style="--i:5"><span>Engrenage<br/>planétaire</span></div>
+        <div class="gear-item" style="--i:6"><span>Train<br/>épicycloïdal</span></div>
+        <div class="gear-item" style="--i:7"><span>Hoecken</span></div>
       </div>
     </div>
   </section>
 
-  <section class="about" id="about">
+  <section class="principe">
+    <div class="container">
+      <div class="principe-grid">
+        <div class="principe-text">
+          <p class="section-label">Principe de fonctionnement</p>
+          <h2 class="section-title">Comment fonctionne le carrousel ?</h2>
+          <p>Un carrousel tourne sur lui-même tout en actionnant des mécanismes internes. Il utilise son propre mouvement de rotation pour faire avancer une roue dentée le long d'une crémaillère, entraînant ainsi chaque sous-système.</p>
+          <p>Nos mécanismes étant eux-mêmes basés sur des mouvements de rotation, ce principe s'adapte naturellement. La rotation est engendrée par une petite roue placée en dessous, en contact avec la base du système.</p>
+        </div>
+        <div class="principe-stats">
+          <div class="stat-card">
+            <span class="stat-num">8</span>
+            <span class="stat-txt">Mécanismes intégrés</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">1</span>
+            <span class="stat-txt">Moteur central</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">∞</span>
+            <span class="stat-txt">Rotation continue</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mecanismes" id="mecanismes">
     <div class="container">
       <div class="section-header">
-        <p class="section-label">Notre vision</p>
-        <h2 class="section-title">Pourquoi Carrousel ?</h2>
+        <p class="section-label">Au cœur du projet</p>
+        <h2 class="section-title">Les 8 mécanismes</h2>
+        <p class="section-desc">Chaque mécanisme transforme un mouvement de rotation en déplacement particulier — linéaire, alternatif, intermittent ou planétaire.</p>
       </div>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>
-            Carrousel est né d'un constat simple : les outils existants sont trop complexes, trop lourds, trop peu adaptés aux besoins réels du terrain.
-          </p>
-          <p>
-            Notre approche repose sur trois piliers — clarté, efficacité, adaptabilité — pour vous offrir une expérience fluide et des résultats mesurables dès le premier jour.
-          </p>
+
+      <!-- 01 -->
+      <article class="meca-card">
+        <div class="meca-number">01</div>
+        <div class="meca-body">
+          <div class="meca-header">
+            <h3>Lambda de Tchebychev</h3>
+            <span class="meca-tag">Rotation → Quasi-linéaire</span>
+          </div>
+          <p class="meca-intro">Présenté pour la première fois à l'exposition universelle de 1878 comme composant de la « machine plantigrade », ce mécanisme transforme une rotation en mouvement quasi-rectiligne <strong>sans glissière</strong>.</p>
+          <div class="meca-details">
+            <div class="meca-col">
+              <h4>Composition</h4>
+              <ul>
+                <li><strong>Manivelle</strong> — pièce tournante fixée sur la croix (repère 1)</li>
+                <li><strong>Barre de couplage</strong> — 5× la taille de la manivelle, génère le mouvement quasi-rectiligne à son extrémité libre</li>
+                <li><strong>Bielle</strong> — 2,5× la taille de la manivelle, relie un point fixe à la barre de couplage</li>
+                <li>Les deux points fixes sont espacés de 2× la longueur de la manivelle</li>
+              </ul>
+            </div>
+            <div class="meca-col">
+              <h4>Intérêt pour le projet</h4>
+              <p>Génère un mouvement de "marche" élégant et visuellement captivant, sans pièce coulissante. Aspect historique fort lié à la robotique des origines.</p>
+            </div>
+          </div>
         </div>
-        <div class="about-stats">
-          <div class="stat">
-            <span class="stat-number">98%</span>
-            <span class="stat-label">Satisfaction utilisateurs</span>
+      </article>
+
+      <!-- 02 -->
+      <article class="meca-card">
+        <div class="meca-number">02</div>
+        <div class="meca-body">
+          <div class="meca-header">
+            <h3>Le Piston — Bielle-Manivelle</h3>
+            <span class="meca-tag">Rotation ⇄ Translation alternative</span>
           </div>
-          <div class="stat">
-            <span class="stat-number">3x</span>
-            <span class="stat-label">Gain de productivité</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">24/7</span>
-            <span class="stat-label">Disponibilité</span>
+          <p class="meca-intro">L'un des systèmes les plus fondamentaux de la mécanique classique. Il convertit un mouvement de rotation en translation alternative — principe central des moteurs à combustion interne, compresseurs et pompes.</p>
+          <div class="meca-details">
+            <div class="meca-col">
+              <h4>Quatre éléments principaux</h4>
+              <ul>
+                <li><strong>Manivelle (vilebrequin)</strong> — pièce tournante solidaire d'un axe fixe</li>
+                <li><strong>Bielle</strong> — tige rigide articulée entre la manivelle et le piston</li>
+                <li><strong>Coulisseau (piston)</strong> — mobile en translation, guidé par une glissière</li>
+                <li><strong>Bâti</strong> — partie fixe, support et référence de l'ensemble</li>
+              </ul>
+            </div>
+            <div class="meca-col">
+              <h4>Fonctionnement</h4>
+              <p>La manivelle tourne et entraîne la bielle, qui transmet le mouvement au coulisseau effectuant un va-et-vient rectiligne. La liaison pivot (manivelle/bielle) et la liaison glissière (piston/bâti) sont au cœur du système.</p>
+            </div>
           </div>
         </div>
-      </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="meca-card">
+        <div class="meca-number">03</div>
+        <div class="meca-body">
+          <div class="meca-header">
+            <h3>Mécanisme de Genève</h3>
+            <span class="meca-tag">Rotation continue → Rotation intermittente</span>
+          </div>
+          <p class="meca-intro">Également appelé <em>croix de Malte</em>, ce dispositif convertit une rotation continue en une rotation précisément intermittente, sans électronique. Utilisé dans les projecteurs de cinéma, montres mécaniques et machines automatiques.</p>
+          <div class="meca-details">
+            <div class="meca-col">
+              <h4>Deux pièces essentielles</h4>
+              <ul>
+                <li><strong>Roue d'entraînement</strong> — munie d'un ou plusieurs pions d'entraînement</li>
+                <li><strong>Croix de Malte</strong> — percée de rainures radiales correspondant au nombre de divisions souhaitées</li>
+              </ul>
+              <p>Un disque circulaire solidaire de la roue d'entraînement verrouille la croix entre deux phases d'engagement.</p>
+            </div>
+            <div class="meca-col">
+              <h4>Cycle de fonctionnement</h4>
+              <p>Le pion s'engage dans une rainure → rotation partielle d'un pas angulaire → sortie du pion → immobilisation jusqu'au prochain engagement. Résultat : avancées angulaires précises séparées par des arrêts nets.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 04 -->
+      <article class="meca-card">
+        <div class="meca-number">04</div>
+        <div class="meca-body">
+          <div class="meca-header">
+            <h3>Vis sans fin</h3>
+            <span class="meca-tag">Réduction de vitesse · Axes orthogonaux</span>
+          </div>
+          <p class="meca-intro">Un mécanisme à fort rapport de réduction transmettant le mouvement entre deux axes perpendiculaires. Son éventuel auto-blocage en fait un système sûr pour maintenir des charges sans frein (treuils, vérins mécaniques).</p>
+          <div class="meca-details">
+            <div class="meca-col">
+              <h4>Relation entrée / sortie</h4>
+              <div class="formula">i = ω₁ / ω₂ = Z₁ / Z₂</div>
+              <ul>
+                <li><strong>ω₁</strong> — vitesse angulaire de la vis</li>
+                <li><strong>ω₂</strong> — vitesse angulaire de la roue</li>
+                <li><strong>Z₁</strong> — nombre de filets de la vis</li>
+                <li><strong>Z₂</strong> — nombre de dents de la roue</li>
+              </ul>
+            </div>
+            <div class="meca-col">
+              <h4>Avantages &amp; limites pour le projet</h4>
+              <ul>
+                <li>✓ Rapport de réduction très élevé (jusqu'à 1:500)</li>
+                <li>✓ Transmission entre axes orthogonaux</li>
+                <li>✓ Mouvement continu et régulier</li>
+                <li>✗ Usure par frottement</li>
+                <li>✗ Fabrication précise requise</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 05 -->
+      <article class="meca-card">
+        <div class="meca-number">05</div>
+        <div class="meca-body">
+          <div class="meca-header">
+            <h3>Mécanisme Came-Suiveur</h3>
+            <span class="meca-tag">Rotation → Déplacement programmé</span>
+          </div>
+          <p class="meca-intro">Le profil de la came détermine entièrement la loi de mouvement du suiveur. Un outil puissant pour générer des déplacements complexes et parfaitement maîtrisés à partir d'une simple rotation continue.</p>
+          <div class="meca-details">
+            <div class="meca-col">
+              <h4>Relation géométrique fondamentale</h4>
+              <div class="formula">y(θ) = R(θ) − R<sub>b</sub></div>
+              <ul>
+                <li><strong>θ</strong> — angle de rotation de la came</li>
+                <li><strong>y</strong> — déplacement du suiveur</li>
+                <li><strong>R(θ)</strong> — rayon au point de contact</li>
+                <li><strong>R<sub>b</sub></strong> — rayon de base</li>
+              </ul>
+            </div>
+            <div class="meca-col">
+              <h4>Les 4 phases d'un cycle complet</h4>
+              <div class="phases">
+                <div class="phase"><span class="phase-num">1</span><span><strong>Montée</strong> — le suiveur s'élève sur le profil</span></div>
+                <div class="phase"><span class="phase-num">2</span><span><strong>Maintien</strong> — hauteur constante</span></div>
+                <div class="phase"><span class="phase-num">3</span><span><strong>Descente</strong> — le suiveur redescend</span></div>
+                <div class="phase"><span class="phase-num">4</span><span><strong>Repos</strong> — immobile pendant la rotation</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 06 -->
+      <article class="meca-card">
+        <div class="meca-number">06</div>
+        <div class="meca-body">
+          <div class="meca-header">
+            <h3>Engrenage Planétaire</h3>
+            <span class="meca-tag">Rotation → Translation · James Watt, 1781</span>
+          </div>
+          <p class="meca-intro">Déposé en octobre 1781 par James Watt (inventé par William Murdoch) pour contourner le brevet du système bielle-manivelle. Ce mécanisme a contribué au développement de la locomotive à vapeur.</p>
+          <div class="meca-details">
+            <div class="meca-col">
+              <h4>Composition</h4>
+              <ul>
+                <li>Deux <strong>roues d'engrenage</strong> engrénées entre elles</li>
+                <li>Une <strong>barre de liaison pivot</strong> entre les deux roues</li>
+                <li>La roue satellite reliée à une barre dont l'extrémité effectue une translation via un piston</li>
+              </ul>
+            </div>
+            <div class="meca-col">
+              <h4>Caractéristique clé</h4>
+              <p>La roue planétaire effectue :</p>
+              <div class="formula">2 × N<sub>sat</sub> / N<sub>plan</sub> tours<br/>par aller-retour du piston</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 07 -->
+      <article class="meca-card">
+        <div class="meca-number">07</div>
+        <div class="meca-body">
+          <div class="meca-header">
+            <h3>Train Épicycloïdal</h3>
+            <span class="meca-tag">Transmission variable · Haute compacité</span>
+          </div>
+          <p class="meca-intro">Comprend au minimum un soleil (engrenage central), des planètes (satellites), une couronne annulaire et un porte-satellite. Le rapport de transmission varie selon l'élément fixé — plan ou sphérique.</p>
+          <div class="meca-details">
+            <div class="meca-col">
+              <h4>3 configurations</h4>
+              <div class="configs">
+                <div class="config">
+                  <span class="config-label">Couronne fixe</span>
+                  <span class="config-desc">Entrée : soleil → Sortie : porte-satellite</span>
+                </div>
+                <div class="config">
+                  <span class="config-label">Soleil fixe</span>
+                  <span class="config-desc">Entrée : porte-satellite → Sortie : couronne</span>
+                </div>
+                <div class="config">
+                  <span class="config-label">Porte-satellite fixe</span>
+                  <span class="config-desc">Entrée : soleil → Sortie : couronne (inversé)</span>
+                </div>
+              </div>
+            </div>
+            <div class="meca-col">
+              <h4>Applications industrielles</h4>
+              <ul>
+                <li><strong>Automobile</strong> — boîtes automatiques, différentiel</li>
+                <li><strong>Aéronautique</strong> — actionneurs, turbines</li>
+                <li><strong>Robotique</strong> — réducteurs compacts à haut couple</li>
+                <li><strong>Énergie</strong> — multiplicateurs pour éoliennes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 08 -->
+      <article class="meca-card">
+        <div class="meca-number">08</div>
+        <div class="meca-body">
+          <div class="meca-header">
+            <h3>Mécanisme de Hoecken</h3>
+            <span class="meca-tag">Rotation → Quasi-rectiligne (sans glissière)</span>
+          </div>
+          <p class="meca-intro">Deux barres articulées génèrent un mouvement rectiligne alternatif <strong>sans rails ni glissières</strong>. Un point bien choisi sur la bielle décrit une trajectoire très proche d'une droite sur une portion de son cycle.</p>
+          <div class="meca-details">
+            <div class="meca-col">
+              <h4>Composition</h4>
+              <ul>
+                <li><strong>Bâti fixe</strong> — point d'ancrage</li>
+                <li><strong>Manivelle</strong> — tourne en rotation continue autour d'un pivot fixe</li>
+                <li><strong>Bielle</strong> — reliée à la manivelle et à un second point fixe</li>
+              </ul>
+              <p>Le point générant le mouvement quasi-rectiligne est choisi sur la bielle, généralement pas aux extrémités.</p>
+            </div>
+            <div class="meca-col">
+              <h4>Intérêt mécanique</h4>
+              <p>Permet de simuler un mouvement de marche sans guidage rigide. Visuellement très démonstratif, il illustre la richesse des trajectoires générables par de simples barres articulées.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
     </div>
   </section>
 
-  <section class="features" id="features">
+  <section class="equipe" id="equipe">
     <div class="container">
       <div class="section-header">
-        <p class="section-label">Ce que nous offrons</p>
-        <h2 class="section-title">Fonctionnalités clés</h2>
+        <p class="section-label">Projet HEI4</p>
+        <h2 class="section-title">L'équipe</h2>
       </div>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon">01</div>
-          <h3>Interface intuitive</h3>
-          <p>Une prise en main immédiate, sans formation requise. Conçu pour tous les profils d'utilisateurs.</p>
+      <div class="equipe-content">
+        <p>Projet de conception mécanique réalisé dans le cadre des projets techniques de <strong>HEI4</strong>, initié à la demande du client <strong>Michael MEUL</strong>.</p>
+        <p>Cette veille technologique a été réalisée en amont du projet afin d'apporter une vision claire de chaque mécanisme et d'aborder la conception de la manière la plus efficace possible.</p>
+        <div class="equipe-date">
+          <span>Contrôle Continu n°1</span>
+          <span class="sep">·</span>
+          <span>08 octobre 2025</span>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">02</div>
-          <h3>Automatisation avancée</h3>
-          <p>Automatisez vos tâches répétitives et concentrez-vous sur ce qui compte vraiment.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">03</div>
-          <h3>Analyses en temps réel</h3>
-          <p>Des tableaux de bord clairs pour prendre les bonnes décisions au bon moment.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">04</div>
-          <h3>Collaboration fluide</h3>
-          <p>Travaillez en équipe sans friction, peu importe où se trouvent vos collaborateurs.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">05</div>
-          <h3>Sécurité renforcée</h3>
-          <p>Vos données sont protégées par les meilleurs standards de sécurité du marché.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">06</div>
-          <h3>Support dédié</h3>
-          <p>Une équipe disponible pour vous accompagner à chaque étape de votre parcours.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta">
-    <div class="container">
-      <h2>Prêt à démarrer ?</h2>
-      <p>Rejoignez les équipes qui font confiance à Carrousel pour transformer leur quotidien.</p>
-      <a href="#contact" class="btn btn-primary">Commencer maintenant</a>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-label">Parlons-en</p>
-        <h2 class="section-title">Nous contacter</h2>
-      </div>
-      <div class="contact-grid">
-        <div class="contact-info">
-          <p>Vous avez une question, un projet en tête ? Nous sommes là pour vous répondre.</p>
-          <div class="contact-item">
-            <span class="contact-icon">✉</span>
-            <span>contact@projetcarrousel.fr</span>
-          </div>
-          <div class="contact-item">
-            <span class="contact-icon">☎</span>
-            <span>+33 1 00 00 00 00</span>
-          </div>
-        </div>
-        <form class="contact-form">
-          <input type="text" placeholder="Votre nom" />
-          <input type="email" placeholder="Votre email" />
-          <textarea placeholder="Votre message" rows="5"></textarea>
-          <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
       </div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container">
-      <p>© 2025 Projet Carrousel — Tous droits réservés</p>
+      <p>© 2025 Projet Carrousel — HEI4 · Tous droits réservés</p>
     </div>
   </footer>
 
